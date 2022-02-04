@@ -1,0 +1,8 @@
+[04-May-2021 06:52:33 America/New_York] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/shorwnxi/elqahwa.online/install.php on line 32
+[04-May-2021 06:52:33 America/New_York] PHP Warning:  include_once(ABSPATHinclude/mysql2i.class.php): failed to open stream: No such file or directory in /home/shorwnxi/elqahwa.online/install.php on line 32
+[04-May-2021 06:52:33 America/New_York] PHP Warning:  include_once(): Failed opening 'ABSPATHinclude/mysql2i.class.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/shorwnxi/elqahwa.online/install.php on line 32
+[04-May-2021 06:52:33 America/New_York] PHP Notice:  Undefined index: step in /home/shorwnxi/elqahwa.online/install.php on line 92
+[04-May-2021 06:52:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/shorwnxi/elqahwa.online/install.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/shorwnxi/elqahwa.online/install.php on line 143

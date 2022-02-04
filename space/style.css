@@ -1,0 +1,248 @@
+*{
+  margin:0;
+  padding: 0;
+}
+header{
+	width: 100%;
+}
+#mynavbar{
+    background-color: grey!important;
+}
+/* شعار الموقع */
+#logo{
+    height: 35%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 25px;
+    /* background-color:rgb(247, 210, 208); */
+}
+#image{
+    height: 250px; 
+    width: 700px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+#image:hover{
+  transform: scale(1.05);
+}
+
+#logo p{
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: crimson;
+}
+#p1{
+    padding-bottom: 30px;
+}
+#p1:hover{
+  transform: scale(1.05);
+}
+
+#details1{
+    color: darkgrey;
+    text-align: center;
+}
+#details1:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+/* خصائص القوائم الرئيسية */
+ /* Add a black background color to the top navigation */
+ .topnav {
+    background-color:#333;
+    overflow: hidden;  
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 30px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:white ;
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  } 
+
+
+
+/* خدماتنا */
+#text{
+    height: 50px;
+    /* background-color:rgb(245, 191, 189); */
+    background-color: crimson;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#text p{
+    font-size: 30px;
+    text-align: center;
+   font-family: sans-serif;
+   padding: 2px;
+   font-weight: bold;
+}
+#details1{
+  color: crimson;
+}
+#details{
+    max-width: 40%;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: rgb(245, 191, 189);
+}
+
+#other a , .card a{
+  color: red;
+  font-weight: bold;
+}
+
+/* contact details************** */
+#contact{
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+/* footer************************** */
+#footer{
+    background-color: rgb(26, 24, 24)!important ;
+    margin-top: 0px;
+}
+
+/* **************************************خاص بصفحة الخدمات************************************** */
+#services{
+  margin-top: 30px;
+  width: 60%;
+  height: 10%;
+  background-color: white;
+  margin: auto;
+}
+/* *********************************التجاوب مع الشاشات ********************************/
+
+   /* Responsive screen phone *********** */ 
+   @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+      display: none;
+    }
+    .topnav a.icon {
+      float: left;
+      display: block;
+    }
+  }
+ /* Responsive screen phone *********** */ 
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {
+      position: relative;
+    }
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      text-align: left;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+
+    }
+
+    .card{
+      transform: scale(.7);
+      display: block;
+      position: absolute;
+      /* space between card */
+      margin-top: -100px;
+    }
+    /* space between article******** */
+    #article1margin{
+      margin-top: 35px;
+    }
+    #article2margin{
+      margin-top: -20px;
+    }
+    #article2services{
+      margin: -30px;
+    }
+    .card:hover {
+      transform: scale(.75);
+      background-color: rgb(252, 113, 109);
+      color: black;
+    }
+    #other:hover{
+      transform: scale(.75);
+      background-color:  rgb(252, 113, 109)!important;
+      color: black;
+    }
+    /* services card********** */
+    #servicesCard{
+      transform: scale(.9);
+    }
+    #servicesCard:hover{
+      /* transform: scale(1); */
+      background-color: rgb(252, 113, 109);
+      color: black;
+    }
+
+    /* table account */
+    .table{
+      width: 80%;
+    }
+    #image{
+      height: 30%; 
+      width: 80%;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+  }
+    
+  }
+/* Responsive screen Computer an ipad*********** */
+  @media screen and (min-width: 600px) {
+    .card:hover {
+      transform: scale(1.05);
+      background-color: rgb(252, 113, 109);
+      color: black;
+    }
+    #other:hover{
+      transform: scale(1.05);
+      background-color:  rgb(252, 113, 109)!important;
+      color: black;
+    }
+     /* services card********** */
+   
+    #servicesCard:hover{
+      transform: scale(1);
+      background-color: rgb(252, 113, 109);
+      color: black;
+    }  
+  }

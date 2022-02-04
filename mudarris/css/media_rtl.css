@@ -1,0 +1,115 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    
+    
+ }
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+
+ }
+
+
+
+ /* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    
+    header .the-down {
+        right: 47%;
+    }
+
+    .testimonials h2 {
+        font-size: 30px;
+    }
+
+    .testimonials .carousel-item p {
+        font-size: 16px;
+        width: 70%;
+    }
+
+
+    .register h2 {
+       font-size: 33px;
+
+    }
+
+    .register p {
+        width: 90%;
+       font-size: 18px;
+
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media  (min-width: 767px) and (max-width: 992px) { 
+    .why-us .why-box.last-box {
+        position: relative;
+        right: 50%;
+    }
+
+ }
+
+ @media  (min-width: 567px) and (max-width: 992px) { 
+    .our-success .success-box.last-box {
+        margin-top: 50px;
+        position: relative;
+        right: 50%;
+    }
+
+ }
+
+ @media (min-width: 991px){
+    /* .links .link-box ul {
+        text-align: right;
+    } */
+
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+
+ }
+
+}
+
+
+
+
+
+
+/* Mobile & Tablet Rules 
+@media (max-width: 767px) {
+
+   
+}
+
+ Mobile & Tablet Rules & Small Screen Rules
+
+@media (max-width: 991px) {
+
+   
+ }
+
+
+Small Screen Rules
+@media (max-width: 768px) { 
+    
+
+}
+
+
+ Medium Screen Rules
+@media (min-width: 992px) and (max-width: 1199px) { 
+    
+
+}
+
+/Large Screen Rules
+@media (min-width: 1200px) { 
+    
+} */
